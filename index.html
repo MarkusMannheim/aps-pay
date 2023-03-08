@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155991615-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "UA-155991615-1");
+    </script>
+
+    <!-- metaphysics -->
+    <meta charset="utf-8">
+    <title>New APS classifications</title>
+    <meta name="author" content="Markus Mannheim">
+    <meta name="keywords" content="act, canberra, aps, public, service, classifications, job, levels, titles">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- scripts -->
+    <script src="./resources/d3.v7.min.js"></script>
+    <link href="./resources/classificationStyle.css" rel="stylesheet">
+    <link href="./resources/abcLogo64.png" rel="icon">
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">Changing workforce</div>
+      <div id="subhead">% of employees in each classification</div>
+      <svg id="chart">
+        <g id="chartGroup"></g>
+        <g id="axisGroup">
+          <g id="xAxisGroup" class="axis"></g>
+          <g id="yAxisGroup" class="axis"></g>
+        </g>
+      </svg>
+      <div id="footer">Source: Australian Public Service Employment Database</div>
+    </div>
+
+    <script>
+      // elements
+      container = d3.select("#container");
+      header = d3.select("#header");
+      subhead = d3.select("#subhead");
+      chart = d3.select("#chart");
+      chartGroup = d3.select("#chartGroup");
+      axisGroup = d3.select("#axisGroup");
+      xAxisGroup = d3.select("#xAxisGroup");
+      yAxisGroup = d3.select("#yAxisGroup");
+      footer = d3.select("#footer");
+
+      // load data
+      d3.tsv("./data/apsClassifications.tsv")
+        .then(function(data) {
+
+          // format data
+          chartData = data;
+          years = Object.keys(chartData[0]).slice(0, -1);
+          levels = chartData.map(function(d) { return d.level; });
+          chartData.map(function(d) {
+              for (i in Object.keys(d)) {
+                if (Object.keys(d)[i] !== "level") {
+                  d[Object.keys(d)[i]] = +d[Object.keys(d)[i]];
+                }
+              }
+              return d;
+            });
+          years.forEach(function(year) {
+            let total = d3.sum(chartData.map(function(d) { return d[year]}));
+            levels.forEach(function(level, i) {
+              chartData[i][year] = chartData[i][year] / total;
+            });
+          });
+
+          max = d3.max(chartData, function(d) {
+            return d3.max(Object.values(d));
+          });
+
+          y = d3.scaleBand()
+            .domain(levels);
+          x = d3.scaleBand()
+            .domain(years);
+          scale = d3.scaleLinear()
+            .domain([0, max]);
+          xAxis = d3.axisTop(x);
+          yAxis = d3.axisLeft(y);
+
+          // await fonts
+          document.fonts.onloadingdone = fontsReady();
+        });
+
+      function fontsReady() {
+        // await user (scroll to map)
+        loadTarget = document.querySelector("#footer");
+
+        // set up frame activation
+        observer = new IntersectionObserver(loadFrame, {
+          threshold: 1
+        });
+        ready = false;
+        observer.observe(loadTarget);
+      }
+
+      function loadFrame(interactionObjects) {
+        interactionObjects.map(function(object) {
+          if (!ready && object.isIntersecting) drawMap();
+        });
+      }
+
+      function drawMap() {
+        ready = true;
+
+        yearPlots = chartGroup
+          .selectAll(".yearPlot")
+            .data(years)
+          .enter().append("g")
+            .classed("yearPlot", true);
+
+        yearPlots.each(function(year) {
+          let data = chartData
+            .map(function(d) {
+              return {
+                value: d[year],
+                level: d.level
+              };
+            })
+          d3.select(this).selectAll(".bar")
+            .data(data)
+          .enter().append("rect")
+            .classed("bar", true)
+            .style("fill", function(d) {
+              let colours = d3.schemeYlGnBu[5];
+              return d.level.includes("SES ") ? colours[0] :
+                d.level.includes("EL ") ? colours[1] :
+                d.level.includes(" 5") || d.level.includes(" 6") ? colours[2] :
+                d.level.includes("trainee") || d.level.includes("graduate") ? colours[4] :
+                colours[3];
+            });
+        });
+
+        window.addEventListener("resize", resize);
+        resize();
+      }
+
+      function resize() {
+        dimensions = document.getElementById("chart").getBoundingClientRect();
+        width = dimensions.width;
+        height = dimensions.height;
+
+        margin = width < 500 ? { top: 20, right: 0, bottom: 0, left: 55 } : { top: 20, right: 0, bottom: 0, left: 58 };
+
+        x.range([margin.left, width - margin.right]);
+        y.range([margin.top, height - margin.bottom]);
+        scale.range([0, x.bandwidth()]);
+
+        xAxisGroup.attr("transform", "translate(0, " + margin.top + ")")
+          .call(xAxis);
+        yAxisGroup.attr("transform", "translate(" + margin.left + ", 0)")
+          .call(yAxis);
+
+        yearPlots.each(function(year) {
+          d3.select(this).selectAll(".bar")
+            .attr("height", y.bandwidth())
+            .attr("y", function(d) { return y(d.level); })
+            .attr("x", function(d) { return x(year) + x.bandwidth() / 2 - scale(d.value) / 2; })
+            .attr("width", function(d) { return scale(d.value); });
+        });
+      }
+    </script>
+  </body>
+</html>
