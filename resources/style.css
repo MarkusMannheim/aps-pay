@@ -87,6 +87,23 @@ body {
   color: gold;
   font-family: ABCSansNovaBlack, "Arial Black", Helvetica, sans-serif;
 }
+#minima line {
+  stroke: #cc4e00;
+  stroke-dasharray: 4 2;
+}
+#minima text {
+  fill: #cc4e00;
+  font-family: ABCSansNovaRegular, "Arial", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#floor text {
+  text-anchor: end;
+}
+#shade {
+  fill: #cc4e00;
+  opacity: .2;
+}
 
 @media only screen and (max-width: 500px) {
   #selector {

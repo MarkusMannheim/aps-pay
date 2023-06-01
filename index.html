@@ -35,9 +35,20 @@
           <g id="xAxisGroup" class="axis"></g>
           <g id="yAxisGroup" class="axis"></g>
         </g>
+        <g id="minima">
+          <rect id="shade"></rect>
+          <g id="floor" class="line">
+            <line></line>
+            <text></text>
+          </g>
+          <g id="ceiling" class="line">
+            <line></line>
+            <text></text>
+          </g>
+        </g>
         <g id="chartGroup"></g>
       </svg>
-      <div id="footer">Note: These ranges are based on existing enterprise agreements and represent salaries at August 31, 2023.<br>Source: Public Service Commission</div>
+      <div id="footer">Note: These ranges are based on existing enterprise agreements and represent projected salaries as of August 31, 2023.<br>Source: Public Service Commission</div>
       <div id="tip"></div>
     </div>
 
@@ -47,6 +58,10 @@
       subhead = d3.select("#subhead");
       selector = d3.select("#selector");
       chart = d3.select("#chart");
+      minima = d3.select("#minima");
+      floor = d3.select("#floor");
+      ceiling = d3.select("#ceiling");
+      shade = d3.select("#shade");
       chartGroup = d3.select("#chartGroup");
       axisGroup = d3.select("#axisGroup");
       xAxisGroup = d3.select("#xAxisGroup");
@@ -84,10 +99,11 @@
           );
 
           // await fonts
+          initialise = true;
           document.fonts.onloadingdone = drawChart();
         });
 
-      function drawChart() {        
+      function drawChart() {
         options = selector
           .selectAll("option")
             .data(levels)
@@ -106,7 +122,7 @@
           .ticks(2, "$,.0f")
           .tickSizeOuter(0);
         yAxis = d3.axisLeft(y)
-          .tickSize(0);
+          .tickSize(0);        
         
         window.addEventListener("resize", resize);
         changeLevel();
@@ -213,8 +229,8 @@
 
         mobile = width <= 500;
         margin = mobile ?
-          { top: 20, right: 15, bottom: 0, left: 130 } :
-          { top: 25, right: 15, bottom: 0, left: 140 };          
+          { top: 50, right: 10, bottom: 0, left: 130 } :
+          { top: 45, right: 15, bottom: 0, left: 140 };          
         
         height = margin.top + margin.bottom + agencies.length * (mobile ? 20 : 25);
 
@@ -272,6 +288,64 @@
             .attr("height", y.bandwidth())
             .attr("x", d => x(d.min))
             .attr("width", d => Math.max(x(d.max) - x(d.min), 2));
+
+        if (initialise) {
+          minima.attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
+
+          floor.select("line")
+            .attr("x1", 0)
+            .attr("x2", 0)
+            .attr("y1", - margin.top)
+            .attr("y2", height - margin.bottom)
+          floor.select("text")
+            .attr("x", -5)
+            .attr("y", -32)
+            .text("min. floor \u25B6");
+
+          ceiling.select("line")  
+            .attr("x1", 0)
+            .attr("x2", 0)
+            .attr("y1", - margin.top)
+            .attr("y2", height - margin.bottom);
+          ceiling.select("text")
+            .attr("x", 5)
+            .attr("y", -32)
+            .text("\u25B6 min. ceiling");
+
+          shade.attr("x", 0)
+            .attr("y", - margin.top)
+            .attr("width", 0)
+            .attr("height", height);
+          
+          initialise = false;
+        }
+
+        minima.transition()
+          .duration(loop)
+          .attr("transform", "translate(" + x(minimum) + ", " + margin.top + ")");
+
+        floor.select("line")
+          .attr("y1", - margin.top)
+          .attr("y2", height - margin.bottom)
+        floor.select("text")
+          .attr("x", -5)
+          .attr("y", -32);
+
+        ceiling.transition()
+          .duration(loop)
+          .attr("transform", "translate(" + (x(maximum) - x(minimum)) + ", 0)");
+        ceiling.select("line")  
+          .attr("y1", - margin.top)
+          .attr("y2", height - margin.bottom);
+        ceiling.select("text")
+          .attr("x", 5)
+          .attr("y", -32);
+
+        shade.attr("y", - margin.top)
+          .attr("height", height)
+          .transition()
+            .duration(loop)
+            .attr("width", x(maximum) - x(minimum));
       }
     </script>
   </body>
