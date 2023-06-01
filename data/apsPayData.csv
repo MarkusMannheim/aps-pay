@@ -1,0 +1,817 @@
+key,agency,level,min,max
+AAT,Administrative Appeals Tribunal,APS1,49577,54791
+ABCC,Australian Building & Construction Commission,APS1,53986,56120
+ABS,Australian Bureau of Statistics,APS1,47739,54389
+ACCC,Australian Competition & Consumer Commission,APS1,51996,57472
+ACIAR,Australian Centre for International Agricultural Research,APS1,50878,56042
+ACIC,Australian Criminal Intelligence Commission,APS1,48985,54140
+ACLEI,Australian Commission for Law Enforcement Integrity,APS1,49749,54983
+ACMA,Australian Communications & Media Authority,APS1,49902,54996
+ACQSC,Aged Care Quality & Safety Commission,APS1,48688,54681
+ACSQHC,Australian Commission on Safety & Quality in Health Care,APS1,49608,55714
+ADHA,Australian Digital Health Agency,APS1,49467,55555
+AEC,Australian Electoral Commission,APS1,49404,54604
+AFMA,Australian Fisheries Management Authority,APS1,48830,57064
+AFSA,Australian Financial Security Authority,APS1,50941,56302
+AG,Attorney-General's Department,APS1,50984,56345
+AHL,Aboriginal Hostels Ltd,APS1,48863,48863
+AHRC,Australian Human Rights Commission,APS1,48384,54524
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,APS1,46641,50744
+AIFS,Australian Institute of Family Studies,APS1,48842,53981
+AIHW,Australian Institute of Health & Welfare,APS1,48826,54774
+ALRC,Australian Law Reform Commission,APS1,47885,56792
+ANAO,Australian National Audit Office,APS1,51312,62375
+ANMM,Australian National Maritime Museum,APS1,47885,50812
+APSC,Australian Public Service Commission,APS1,48729,50409
+APVMA,Australian Pesticides & Veterinary Medicines Authority,APS1,53985,56731
+ARC,Australian Research Council,APS1,53044,54402
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,APS1,49929,56754
+ASEA,Asbestos Safety & Eradication Agency,APS1,51955,56805
+ASQA,Australian Skills Quality Authority,APS1,53487,54377
+ATO,Australian Taxation Office,APS1,52506,57988
+ATSB,Australian Transport Safety Bureau,APS1,50119,55204
+AUSTRAC,Australian Transaction Reports & Analysis Centre,APS1,53481,58525
+AUSTRADE,Austrade,APS1,55919,55919
+AWM,Australian War Memorial,APS1,47861,52893
+BOM,Bureau of Meteorology,APS1,48022,53438
+Cancer,Cancer Australia,APS1,48862,54514
+CCA,Climate Change Authority,APS1,50328,53848
+CER,Clean Energy Regulator,APS1,51572,58494
+CGC,Commonwealth Grants Commission,APS1,49099,54986
+Comcare,Comcare,APS1,51562,56400
+DAFF,"Department of Agriculture, Fisheries & Forestry",APS1,48952,51888
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",APS1,48952,51888
+Defence,Department of Defence,APS1,50227,56382
+DESE,Department of Education,APS1,53262,58237
+DEWR,Department of Employment & Workplace Relations,APS1,53262,58237
+DFAT,Department of Foreign Affairs & Trade,APS1,51260,55983
+DFSVA,"Domestic, Family & Sexual Violence Commission",APS1,48072,53795
+DHA,Defence Housing Australia,APS1,55293,61832
+DPP,Office of the Director of Public Prosecutions,APS1,48905,54792
+DSS,Department of Social Services,APS1,49514,55409
+DTA,Digital Transformation Agency,APS1,50336,55277
+DVA,Department of Veterans' Affairs,APS1,51737,57956
+FED,Federal Court of Australia,APS1,47776,52800
+Finance,Department of Finance,APS1,51407,59288
+FSANZ,Food Standards Australia New Zealand,APS1,49454,55468
+FWC,Fair Work Commission,APS1,52418,54488
+GBRMPA,Great Barrier Reef Marine Park Authority,APS1,45205,56259
+Geoscience,Geoscience Australia,APS1,47884,47884
+Health,Department of Health,APS1,49612,55719
+Home Affairs,Department of Home Affairs,APS1,48693,53957
+Industry,"Department of Industry, Science & Resources",APS1,51179,56129
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",APS1,50014,55089
+IPA,IP Australia,APS1,50512,56036
+IPEA,Independent Parliamentary Expenses Authority,APS1,50399,57871
+MDBA,Murray-Darling Basin Authority,APS1,50229,54666
+NAA,National Archives of Australia,APS1,50146,55172
+NBA,National Blood Authority,APS1,48998,55046
+NCA,National Capital Authority,APS1,45547,50340
+NDIA,National Disability Insurance Agency,APS1,47610,54478
+NDISQSC,NDIS Quality & Safeguards Commission,APS1,48862,54376
+NEMA,National Recovery & Resilience Agency,APS1,50386,55092
+NFRA,National Faster Rail Agency,APS1,50014,55089
+NFSA,National Film & Sound Archive of Australia,APS1,47979,52944
+NHFB,National Health Funding Body,APS1,48683,54678
+NHMRC,National Health & Medical Research Council,APS1,48168,54096
+NIAA,National Indigenous Australians Agency,APS1,52266,57150
+NLA,National Library of Australia,APS1,48123,53189
+NMA,National Museum of Australia,APS1,47585,52593
+NMHC,National Mental Health Commission,APS1,50297,55279
+NPG,National Portrait Gallery of Australia,APS1,50995,56356
+NQWIA,North Queensland Water Infrastructure Authority,APS1,50014,55089
+OAIC,Office of the Australian Information Commissioner,APS1,49266,55861
+OFWO,Fair Work Ombudsman,APS1,54449,56582
+OIGIS,Office of the Inspector-General of Intelligence & Security,APS1,52353,56085
+OIGOT,Inspector-General of Taxation,APS1,50996,55378
+OMB,Office of the Commonwealth Ombudsman,APS1,48741,53873
+ONI,Office of National Intelligence,APS1,53272,58689
+OPC,Office of Parliamentary Counsel,APS1,51784,57230
+OPH,Old Parliament House,APS1,47553,53431
+OTA,Organ & Tissue Authority,APS1,49613,55719
+PC,Productivity Commission,APS1,46849,52157
+PMC,Department of the Prime Minister & Cabinet,APS1,52266,57150
+PSR,Professional Services Review,APS1,47971,53874
+RAM,Royal Australian Mint,APS1,50224,54084
+SA,Screen Australia,APS1,47692,52709
+Services Australia,Services Australia,APS1,51471,55188
+SIA,Sport Integrity Australia,APS1,48862,50794
+SWA,Safe Work Australia,APS1,53568,58573
+TEQSA,Tertiary Education Quality & Standards Agency,APS1,51290,56080
+Treasury,Treasury,APS1,51003,55385
+TSRA,Torres Strait Regional Authority,APS1,48862,53205
+WGEA,Workplace Gender Equality Agency,APS1,51103,56183
+AAT,Administrative Appeals Tribunal,APS2,56106,63116
+ABCC,Australian Building & Construction Commission,APS2,61232,67056
+ABS,Australian Bureau of Statistics,APS2,54592,61556
+ACCC,Australian Competition & Consumer Commission,APS2,58842,65250
+ACIAR,Australian Centre for International Agricultural Research,APS2,57342,63392
+ACIC,Australian Criminal Intelligence Commission,APS2,56273,62399
+ACLEI,Australian Commission for Law Enforcement Integrity,APS2,56304,62433
+ACMA,Australian Communications & Media Authority,APS2,56096,61879
+ACQSC,Aged Care Quality & Safety Commission,APS2,56902,62096
+ACSQHC,Australian Commission on Safety & Quality in Health Care,APS2,57979,63269
+ADHA,Australian Digital Health Agency,APS2,57814,63090
+AEC,Australian Electoral Commission,APS2,55913,62004
+AFMA,Australian Fisheries Management Authority,APS2,61178,65298
+AFSA,Australian Financial Security Authority,APS2,57653,63929
+AG,Attorney-General's Department,APS2,57700,63983
+AHL,Aboriginal Hostels Ltd,APS2,52893,54690
+AHRC,Australian Human Rights Commission,APS2,56266,61914
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,APS2,51688,57619
+AIFS,Australian Institute of Family Studies,APS2,56798,61294
+AIHW,Australian Institute of Health & Welfare,APS2,56778,62194
+ALRC,Australian Law Reform Commission,APS2,58496,63918
+ANAO,Australian National Audit Office,APS2,62376,67904
+ANMM,Australian National Maritime Museum,APS2,51835,57698
+APSC,Australian Public Service Commission,APS2,55673,62100
+APVMA,Australian Pesticides & Veterinary Medicines Authority,APS2,59996,65782
+ARC,Australian Research Council,APS2,57344,62295
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,APS2,58456,64172
+ASEA,Asbestos Safety & Eradication Agency,APS2,61022,65025
+ASQA,Australian Skills Quality Authority,APS2,60099,62245
+ATO,Australian Taxation Office,APS2,59374,65804
+ATSB,Australian Transport Safety Bureau,APS2,56760,62664
+AUSTRAC,Australian Transaction Reports & Analysis Centre,APS2,60542,66598
+AUSTRADE,Austrade,APS2,58154,60481
+AWM,Australian War Memorial,APS2,55361,60055
+BOM,Bureau of Meteorology,APS2,55448,60769
+Cancer,Cancer Australia,APS2,56731,61908
+CCA,Climate Change Authority,APS2,55164,60128
+CER,Clean Energy Regulator,APS2,61422,65540
+CGC,Commonwealth Grants Commission,APS2,59419,63551
+Comcare,Comcare,APS2,57940,64158
+DAFF,"Department of Agriculture, Fisheries & Forestry",APS2,56208,63417
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",APS2,56208,63417
+Defence,Department of Defence,APS2,56843,63903
+DESE,Department of Education,APS2,62558,66664
+DEWR,Department of Employment & Workplace Relations,APS2,62558,66664
+DFAT,Department of Foreign Affairs & Trade,APS2,59342,64086
+DFSVA,"Domestic, Family & Sexual Violence Commission",APS2,56184,62520
+DHA,Defence Housing Australia,APS2,62903,67966
+DPP,Office of the Director of Public Prosecutions,APS2,56480,62100
+DSS,Department of Social Services,APS2,57870,64396
+DTA,Digital Transformation Agency,APS2,56630,62769
+DVA,Department of Veterans' Affairs,APS2,60165,65811
+FED,Federal Court of Australia,APS2,54069,59959
+Finance,Department of Finance,APS2,59029,67554
+FSANZ,Food Standards Australia New Zealand,APS2,55965,62983
+FWC,Fair Work Commission,APS2,59452,65110
+GBRMPA,Great Barrier Reef Marine Park Authority,APS2,56484,63491
+Geoscience,Geoscience Australia,APS2,54629,58371
+Health,Department of Health,APS2,57984,63275
+Home Affairs,Department of Home Affairs,APS2,54439,61245
+Industry,"Department of Industry, Science & Resources",APS2,57889,64575
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",APS2,56642,62531
+IPA,IP Australia,APS2,58094,63609
+IPEA,Independent Parliamentary Expenses Authority,APS2,57871,66228
+MDBA,Murray-Darling Basin Authority,APS2,57839,62945
+NAA,National Archives of Australia,APS2,57322,62528
+NBA,National Blood Authority,APS2,57287,62513
+NCA,National Capital Authority,APS2,52962,58878
+NDIA,National Disability Insurance Agency,APS2,55423,62542
+NDISQSC,NDIS Quality & Safeguards Commission,APS2,56790,63195
+NEMA,National Recovery & Resilience Agency,APS2,59179,63063
+NFRA,National Faster Rail Agency,APS2,56642,62531
+NFSA,National Film & Sound Archive of Australia,APS2,54348,60010
+NHFB,National Health Funding Body,APS2,56897,62089
+NHMRC,National Health & Medical Research Council,APS2,56298,61434
+NIAA,National Indigenous Australians Agency,APS2,61389,65417
+NLA,National Library of Australia,APS2,55307,62706
+NMA,National Museum of Australia,APS2,53853,59719
+NMHC,National Mental Health Commission,APS2,56639,62980
+NPG,National Portrait Gallery of Australia,APS2,57710,62437
+NQWIA,North Queensland Water Infrastructure Authority,APS2,56642,62531
+OAIC,Office of the Australian Information Commissioner,APS2,57290,61831
+OFWO,Fair Work Ombudsman,APS2,61695,67520
+OIGIS,Office of the Inspector-General of Intelligence & Security,APS2,57462,63898
+OIGOT,Inspector-General of Taxation,APS2,58780,62672
+OMB,Office of the Commonwealth Ombudsman,APS2,55162,61170
+ONI,Office of National Intelligence,APS2,60052,67510
+OPC,Office of Parliamentary Counsel,APS2,58601,64987
+OPH,Old Parliament House,APS2,56636,60036
+OTA,Organ & Tissue Authority,APS2,57985,63276
+PC,Productivity Commission,APS2,53560,61911
+PMC,Department of the Prime Minister & Cabinet,APS2,61389,65417
+PSR,Professional Services Review,APS2,55420,61180
+RAM,Royal Australian Mint,APS2,56241,61409
+SA,Screen Australia,APS2,54624,59852
+Services Australia,Services Australia,APS2,57517,62074
+SIA,Sport Integrity Australia,APS2,53517,63194
+SWA,Safe Work Australia,APS2,62918,67083
+TEQSA,Tertiary Education Quality & Standards Agency,APS2,60242,64196
+Treasury,Treasury,APS2,58787,62681
+TSRA,Torres Strait Regional Authority,APS2,54483,60413
+WGEA,Workplace Gender Equality Agency,APS2,57738,63635
+AAT,Administrative Appeals Tribunal,APS3,66437,68975
+ABCC,Australian Building & Construction Commission,APS3,68903,74304
+ABS,Australian Bureau of Statistics,APS3,62193,70107
+ACCC,Australian Competition & Consumer Commission,APS3,67018,72339
+ACIAR,Australian Centre for International Agricultural Research,APS3,65064,70083
+ACIC,Australian Criminal Intelligence Commission,APS3,65103,70266
+ACLEI,Australian Commission for Law Enforcement Integrity,APS3,64129,69214
+ACMA,Australian Communications & Media Authority,APS3,63748,69324
+ACQSC,Aged Care Quality & Safety Commission,APS3,65758,72888
+ACSQHC,Australian Commission on Safety & Quality in Health Care,APS3,67002,74265
+ADHA,Australian Digital Health Agency,APS3,66811,74054
+AEC,Australian Electoral Commission,APS3,63686,69793
+AFMA,Australian Fisheries Management Authority,APS3,66966,72781
+AFSA,Australian Financial Security Authority,APS3,65666,70871
+AG,Attorney-General's Department,APS3,64431,69536
+AHL,Aboriginal Hostels Ltd,APS3,59814,60627
+AHRC,Australian Human Rights Commission,APS3,62371,68636
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,APS3,58826,63876
+AIFS,Australian Institute of Family Studies,APS3,62955,69192
+AIHW,Australian Institute of Health & Welfare,APS3,64575,70654
+ALRC,Australian Law Reform Commission,APS3,65838,71942
+ANAO,Australian National Audit Office,APS3,67905,73437
+ANMM,Australian National Maritime Museum,APS3,58103,63968
+APSC,Australian Public Service Commission,APS3,64859,66878
+APVMA,Australian Pesticides & Veterinary Medicines Authority,APS3,66364,74774
+ARC,Australian Research Council,APS3,64042,67677
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,APS3,66560,74475
+ASEA,Asbestos Safety & Eradication Agency,APS3,68146,70979
+ASQA,Australian Skills Quality Authority,APS3,66835,67942
+ATO,Australian Taxation Office,APS3,67577,72908
+ATSB,Australian Transport Safety Bureau,APS3,64758,69925
+AUSTRAC,Australian Transaction Reports & Analysis Centre,APS3,67604,73658
+AUSTRADE,Austrade,APS3,62900,70757
+AWM,Australian War Memorial,APS3,61356,66580
+BOM,Bureau of Meteorology,APS3,61449,67299
+Cancer,Cancer Australia,APS3,65561,72669
+CCA,Climate Change Authority,APS3,61394,67724
+CER,Clean Energy Regulator,APS3,68358,73998
+CGC,Commonwealth Grants Commission,APS3,64569,69798
+Comcare,Comcare,APS3,66128,71783
+DAFF,"Department of Agriculture, Fisheries & Forestry",APS3,63867,71444
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",APS3,63867,71444
+Defence,Department of Defence,APS3,64749,71343
+DESE,Department of Education,APS3,69863,72767
+DEWR,Department of Employment & Workplace Relations,APS3,69863,72767
+DFAT,Department of Foreign Affairs & Trade,APS3,67249,73298
+DFSVA,"Domestic, Family & Sexual Violence Commission",APS3,64930,70451
+DHA,Defence Housing Australia,APS3,69389,76886
+DPP,Office of the Director of Public Prosecutions,APS3,62520,68748
+DSS,Department of Social Services,APS3,66878,72565
+DTA,Digital Transformation Agency,APS3,64406,69584
+DVA,Department of Veterans' Affairs,APS3,67915,72957
+FED,Federal Court of Australia,APS3,61586,66469
+Finance,Department of Finance,APS3,65616,75690
+FSANZ,Food Standards Australia New Zealand,APS3,63746,70303
+FWC,Fair Work Commission,APS3,66902,72144
+GBRMPA,Great Barrier Reef Marine Park Authority,APS3,63942,70078
+Geoscience,Geoscience Australia,APS3,62233,66163
+Health,Department of Health,APS3,67008,74273
+Home Affairs,Department of Home Affairs,APS3,61915,71136
+Industry,"Department of Industry, Science & Resources",APS3,65011,70489
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",APS3,64622,69778
+IPA,IP Australia,APS3,65308,70873
+IPEA,Independent Parliamentary Expenses Authority,APS3,64329,74204
+MDBA,Murray-Darling Basin Authority,APS3,66524,72270
+NAA,National Archives of Australia,APS3,64408,69789
+NBA,National Blood Authority,APS3,66200,73381
+NCA,National Capital Authority,APS3,60236,65972
+NDIA,National Disability Insurance Agency,APS3,62967,70522
+NDISQSC,NDIS Quality & Safeguards Commission,APS3,65631,71211
+NEMA,National Recovery & Resilience Agency,APS3,66088,68837
+NFRA,National Faster Rail Agency,APS3,64622,69778
+NFSA,National Film & Sound Archive of Australia,APS3,61803,68834
+NHFB,National Health Funding Body,APS3,65752,72881
+NHMRC,National Health & Medical Research Council,APS3,65059,72111
+NIAA,National Indigenous Australians Agency,APS3,68556,71408
+NLA,National Library of Australia,APS3,64041,69173
+NMA,National Museum of Australia,APS3,61337,66203
+NMHC,National Mental Health Commission,APS3,64797,69779
+NPG,National Portrait Gallery of Australia,APS3,64445,69551
+NQWIA,North Queensland Water Infrastructure Authority,APS3,64622,69778
+OAIC,Office of the Australian Information Commissioner,APS3,63508,68543
+OFWO,Fair Work Ombudsman,APS3,69365,74767
+OIGIS,Office of the Inspector-General of Intelligence & Security,APS3,65740,70795
+OIGOT,Inspector-General of Taxation,APS3,66563,70450
+OMB,Office of the Commonwealth Ombudsman,APS3,62831,67814
+ONI,Office of National Intelligence,APS3,68143,73401
+OPC,Office of Parliamentary Counsel,APS3,66748,72043
+OPH,Old Parliament House,APS3,62041,67794
+OTA,Organ & Tissue Authority,APS3,67009,74274
+PC,Productivity Commission,APS3,61018,74870
+PMC,Department of the Prime Minister & Cabinet,APS3,68556,71408
+PSR,Professional Services Review,APS3,64151,70953
+RAM,Royal Australian Mint,APS3,64549,69086
+SA,Screen Australia,APS3,62230,68769
+Services Australia,Services Australia,APS3,63760,71062
+SIA,Sport Integrity Australia,APS3,65280,73224
+SWA,Safe Work Australia,APS3,70257,73171
+TEQSA,Tertiary Education Quality & Standards Agency,APS3,67277,70075
+Treasury,Treasury,APS3,66570,70457
+TSRA,Torres Strait Regional Authority,APS3,62050,66973
+WGEA,Workplace Gender Equality Agency,APS3,65709,70867
+AAT,Administrative Appeals Tribunal,APS4,71223,77331
+ABCC,Australian Building & Construction Commission,APS4,76717,83253
+ABS,Australian Bureau of Statistics,APS4,70166,78923
+ACCC,Australian Competition & Consumer Commission,APS4,74703,81109
+ACIAR,Australian Centre for International Agricultural Research,APS4,74329,78362
+ACIC,Australian Criminal Intelligence Commission,APS4,71560,77699
+ACLEI,Australian Commission for Law Enforcement Integrity,APS4,71470,77604
+ACMA,Australian Communications & Media Authority,APS4,71401,77612
+ACQSC,Aged Care Quality & Safety Commission,APS4,74501,78720
+ACSQHC,Australian Commission on Safety & Quality in Health Care,APS4,75910,80208
+ADHA,Australian Digital Health Agency,APS4,75695,79981
+AEC,Australian Electoral Commission,APS4,70982,77785
+AFMA,Australian Fisheries Management Authority,APS4,75684,80919
+AFSA,Australian Financial Security Authority,APS4,73187,79462
+AG,Attorney-General's Department,APS4,71807,77966
+AHL,Aboriginal Hostels Ltd,APS4,67366,67974
+AHRC,Australian Human Rights Commission,APS4,69513,76955
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,APS4,65614,71621
+AIFS,Australian Institute of Family Studies,APS4,70165,76183
+AIHW,Australian Institute of Health & Welfare,APS4,72379,78392
+ALRC,Australian Law Reform Commission,APS4,74098,80972
+ANAO,Australian National Audit Office,APS4,73819,81131
+ANMM,Australian National Maritime Museum,APS4,64756,71715
+APSC,Australian Public Service Commission,APS4,71429,76885
+APVMA,Australian Pesticides & Veterinary Medicines Authority,APS4,75302,82960
+ARC,Australian Research Council,APS4,71997,76084
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,APS4,76711,80160
+ASEA,Asbestos Safety & Eradication Agency,APS4,74128,79277
+ASQA,Australian Skills Quality Authority,APS4,71747,75886
+ATO,Australian Taxation Office,APS4,75279,81703
+ATSB,Australian Transport Safety Bureau,APS4,71753,77969
+AUSTRAC,Australian Transaction Reports & Analysis Centre,APS4,74670,82743
+AUSTRADE,Austrade,APS4,73584,79962
+AWM,Australian War Memorial,APS4,68656,74648
+BOM,Bureau of Meteorology,APS4,68878,75532
+Cancer,Cancer Australia,APS4,74277,78482
+CCA,Climate Change Authority,APS4,68989,74053
+CER,Clean Energy Regulator,APS4,76817,81045
+CGC,Commonwealth Grants Commission,APS4,74763,78149
+Comcare,Comcare,APS4,73692,80595
+DAFF,"Department of Agriculture, Fisheries & Forestry",APS4,72002,78386
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",APS4,72002,78386
+Defence,Department of Defence,APS4,73343,80071
+DESE,Department of Education,APS4,75996,81274
+DEWR,Department of Employment & Workplace Relations,APS4,75996,81274
+DFAT,Department of Foreign Affairs & Trade,APS4,75357,80336
+DFSVA,"Domestic, Family & Sexual Violence Commission",APS4,73563,79070
+DHA,Defence Housing Australia,APS4,77958,84295
+DPP,Office of the Director of Public Prosecutions,APS4,69586,76980
+DSS,Department of Social Services,APS4,75770,81442
+DTA,Digital Transformation Agency,APS4,72190,78019
+DVA,Department of Veterans' Affairs,APS4,76696,81802
+FED,Federal Court of Australia,APS4,68643,74529
+Finance,Department of Finance,APS4,74012,84472
+FSANZ,Food Standards Australia New Zealand,APS4,71048,78285
+FWC,Fair Work Commission,APS4,74488,80834
+GBRMPA,Great Barrier Reef Marine Park Authority,APS4,70941,78223
+Geoscience,Geoscience Australia,APS4,70093,77117
+Health,Department of Health,APS4,75917,80215
+Home Affairs,Department of Home Affairs,APS4,71201,76799
+Industry,"Department of Industry, Science & Resources",APS4,72967,78763
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",APS4,71600,77807
+IPA,IP Australia,APS4,72669,78765
+IPEA,Independent Parliamentary Expenses Authority,APS4,72560,82815
+MDBA,Murray-Darling Basin Authority,APS4,74294,80711
+NAA,National Archives of Australia,APS4,71767,77333
+NBA,National Blood Authority,APS4,75005,79253
+NCA,National Capital Authority,APS4,67519,74063
+NDIA,National Disability Insurance Agency,APS4,71085,78900
+NDISQSC,NDIS Quality & Safeguards Commission,APS4,74357,79924
+NEMA,National Recovery & Resilience Agency,APS4,71890,76884
+NFRA,National Faster Rail Agency,APS4,71600,77807
+NFSA,National Film & Sound Archive of Australia,APS4,69736,74400
+NHFB,National Health Funding Body,APS4,74495,78712
+NHMRC,National Health & Medical Research Council,APS4,73710,77880
+NIAA,National Indigenous Australians Agency,APS4,74575,79755
+NLA,National Library of Australia,APS4,70342,75954
+NMA,National Museum of Australia,APS4,69437,74229
+NMHC,National Mental Health Commission,APS4,72047,78387
+NPG,National Portrait Gallery of Australia,APS4,71821,77982
+NQWIA,North Queensland Water Infrastructure Authority,APS4,71600,77807
+OAIC,Office of the Australian Information Commissioner,APS4,73032,77599
+OFWO,Fair Work Ombudsman,APS4,77180,83715
+OIGIS,Office of the Inspector-General of Intelligence & Security,APS4,73095,79529
+OIGOT,Inspector-General of Taxation,APS4,74344,78235
+OMB,Office of the Commonwealth Ombudsman,APS4,70027,76031
+ONI,Office of National Intelligence,APS4,75740,83500
+OPC,Office of Parliamentary Counsel,APS4,74393,80775
+OPH,Old Parliament House,APS4,69832,75327
+OTA,Organ & Tissue Authority,APS4,75918,80216
+PC,Productivity Commission,APS4,69110,84371
+PMC,Department of the Prime Minister & Cabinet,APS4,74575,79755
+PSR,Professional Services Review,APS4,72539,77874
+RAM,Royal Australian Mint,APS4,72112,76332
+SA,Screen Australia,APS4,70086,74393
+Services Australia,Services Australia,APS4,71063,78735
+SIA,Sport Integrity Australia,APS4,77354,85060
+SWA,Safe Work Australia,APS4,76421,82225
+TEQSA,Tertiary Education Quality & Standards Agency,APS4,73177,78266
+Treasury,Treasury,APS4,74354,78243
+TSRA,Torres Strait Regional Authority,APS4,69157,75089
+WGEA,Workplace Gender Equality Agency,APS4,72714,78921
+AAT,Administrative Appeals Tribunal,APS5,79438,84238
+ABCC,Australian Building & Construction Commission,APS5,85526,90640
+ABS,Australian Bureau of Statistics,APS5,78928,88655
+ACCC,Australian Competition & Consumer Commission,APS5,83320,88348
+ACIAR,Australian Centre for International Agricultural Research,APS5,82032,85197
+ACIC,Australian Criminal Intelligence Commission,APS5,79234,84019
+ACLEI,Australian Commission for Law Enforcement Integrity,APS5,79719,84532
+ACMA,Australian Communications & Media Authority,APS5,79557,85899
+ACQSC,Aged Care Quality & Safety Commission,APS5,79854,86359
+ACSQHC,Australian Commission on Safety & Quality in Health Care,APS5,81364,87992
+ADHA,Australian Digital Health Agency,APS5,81133,87741
+AEC,Australian Electoral Commission,APS5,79169,86763
+AFMA,Australian Fisheries Management Authority,APS5,83410,88343
+AFSA,Australian Financial Security Authority,APS5,81631,88163
+AG,Attorney-General's Department,APS5,80095,84930
+AHL,Aboriginal Hostels Ltd,APS5,75040,79671
+AHRC,Australian Human Rights Commission,APS5,77533,85383
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,APS5,73089,78011
+AIFS,Australian Institute of Family Studies,APS5,78775,84933
+AIHW,Australian Institute of Health & Welfare,APS5,80693,86430
+ALRC,Australian Law Reform Commission,APS5,83402,88479
+ANAO,Australian National Audit Office,APS5,84788,92392
+ANMM,Australian National Maritime Museum,APS5,72228,77967
+APSC,Australian Public Service Commission,APS5,80148,87650
+APVMA,Australian Pesticides & Veterinary Medicines Authority,APS5,85512,93944
+ARC,Australian Research Council,APS5,78216,82659
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,APS5,82564,86687
+ASEA,Asbestos Safety & Eradication Agency,APS5,81846,87501
+ASQA,Australian Skills Quality Authority,APS5,78707,83760
+ATO,Australian Taxation Office,APS5,83922,88967
+ATSB,Australian Transport Safety Bureau,APS5,80104,86494
+AUSTRAC,Australian Transaction Reports & Analysis Centre,APS5,83751,91823
+AUSTRADE,Austrade,APS5,83159,90096
+AWM,Australian War Memorial,APS5,75921,81313
+BOM,Bureau of Meteorology,APS5,76783,83683
+Cancer,Cancer Australia,APS5,80788,85270
+CCA,Climate Change Authority,APS5,75319,80699
+CER,Clean Energy Regulator,APS5,83865,88094
+CGC,Commonwealth Grants Commission,APS5,82339,86145
+Comcare,Comcare,APS5,83101,89150
+DAFF,"Department of Agriculture, Fisheries & Forestry",APS5,78548,86168
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",APS5,78548,86168
+Defence,Department of Defence,APS5,80487,86211
+DESE,Department of Education,APS5,83908,89706
+DEWR,Department of Employment & Workplace Relations,APS5,83908,89706
+DFAT,Department of Foreign Affairs & Trade,APS5,83095,88793
+DFSVA,"Domestic, Family & Sexual Violence Commission",APS5,80789,86277
+DHA,Defence Housing Australia,APS5,85366,92763
+DPP,Office of the Director of Public Prosecutions,APS5,77518,83778
+DSS,Department of Social Services,APS5,83213,88865
+DTA,Digital Transformation Agency,APS5,80482,87699
+DVA,Department of Veterans' Affairs,APS5,85503,89106
+FED,Federal Court of Australia,APS5,76560,81179
+Finance,Department of Finance,APS5,82535,92609
+FSANZ,Food Standards Australia New Zealand,APS5,79243,85272
+FWC,Fair Work Commission,APS5,83041,88007
+GBRMPA,Great Barrier Reef Marine Park Authority,APS5,78806,86476
+Geoscience,Geoscience Australia,APS5,78077,86690
+Health,Department of Health,APS5,81372,88000
+Home Affairs,Department of Home Affairs,APS5,77642,83632
+Industry,"Department of Industry, Science & Resources",APS5,80250,84668
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",APS5,79935,84757
+IPA,IP Australia,APS5,80916,86713
+IPEA,Independent Parliamentary Expenses Authority,APS5,80917,90793
+MDBA,Murray-Darling Basin Authority,APS5,83418,91807
+NAA,National Archives of Australia,APS5,79126,84878
+NBA,National Blood Authority,APS5,81580,86104
+NCA,National Capital Authority,APS5,75271,80285
+NDIA,National Disability Insurance Agency,APS5,80243,86384
+NDISQSC,NDIS Quality & Safeguards Commission,APS5,81661,87208
+NEMA,National Recovery & Resilience Agency,APS5,79375,84859
+NFRA,National Faster Rail Agency,APS5,79935,84757
+NFSA,National Film & Sound Archive of Australia,APS5,77337,81821
+NHFB,National Health Funding Body,APS5,79847,86350
+NHMRC,National Health & Medical Research Council,APS5,80171,84617
+NIAA,National Indigenous Australians Agency,APS5,82339,88028
+NLA,National Library of Australia,APS5,78276,83438
+NMA,National Museum of Australia,APS5,76250,80855
+NMHC,National Mental Health Commission,APS5,80202,87000
+NPG,National Portrait Gallery of Australia,APS5,79947,86141
+NQWIA,North Queensland Water Infrastructure Authority,APS5,79935,84757
+OAIC,Office of the Australian Information Commissioner,APS5,81419,86076
+OFWO,Fair Work Ombudsman,APS5,85987,91102
+OIGIS,Office of the Inspector-General of Intelligence & Security,APS5,81369,88265
+OIGOT,Inspector-General of Taxation,APS5,83588,88939
+OMB,Office of the Commonwealth Ombudsman,APS5,78102,82820
+ONI,Office of National Intelligence,APS5,84265,91732
+OPC,Office of Parliamentary Counsel,APS5,82975,87989
+OPH,Old Parliament House,APS5,76307,80949
+OTA,Organ & Tissue Authority,APS5,82574,87154
+PC,Productivity Commission,APS5,77439,89988
+PMC,Department of the Prime Minister & Cabinet,APS5,82339,88028
+PSR,Professional Services Review,APS5,78928,83479
+RAM,Royal Australian Mint,APS5,80328,84688
+SA,Screen Australia,APS5,78071,83538
+Services Australia,Services Australia,APS5,79257,85523
+SIA,Sport Integrity Australia,APS5,87260,94736
+SWA,Safe Work Australia,APS5,84405,90091
+TEQSA,Tertiary Education Quality & Standards Agency,APS5,80802,86384
+Treasury,Treasury,APS5,83596,88949
+TSRA,Torres Strait Regional Authority,APS5,77136,81795
+WGEA,Workplace Gender Equality Agency,APS5,81474,86329
+AAT,Administrative Appeals Tribunal,APS6,86055,98557
+ABCC,Australian Building & Construction Commission,APS6,92628,106551
+ABS,Australian Bureau of Statistics,APS6,88663,100130
+ACCC,Australian Competition & Consumer Commission,APS6,92228,103370
+ACIAR,Australian Centre for International Agricultural Research,APS6,89905,99381
+ACIC,Australian Criminal Intelligence Commission,APS6,86452,97832
+ACLEI,Australian Commission for Law Enforcement Integrity,APS6,86097,98904
+ACMA,Australian Communications & Media Authority,APS6,87686,99024
+ACQSC,Aged Care Quality & Safety Commission,APS6,89394,100849
+ACSQHC,Australian Commission on Safety & Quality in Health Care,APS6,91084,102756
+ADHA,Australian Digital Health Agency,APS6,90823,102464
+AEC,Australian Electoral Commission,APS6,87635,98223
+AFMA,Australian Fisheries Management Authority,APS6,93273,103143
+AFSA,Australian Financial Security Authority,APS6,90357,101277
+AG,Attorney-General's Department,APS6,91086,101605
+AHL,Aboriginal Hostels Ltd,APS6,82715,86978
+AHRC,Australian Human Rights Commission,APS6,85826,98079
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,APS6,80249,91279
+AIFS,Australian Institute of Family Studies,APS6,87092,97092
+AIHW,Australian Institute of Health & Welfare,APS6,90505,100051
+ALRC,Australian Law Reform Commission,APS6,91134,105648
+ANAO,Australian National Audit Office,APS6,93935,107965
+ANMM,Australian National Maritime Museum,APS6,78009,91404
+APSC,Australian Public Service Commission,APS6,91250,99064
+APVMA,Australian Pesticides & Veterinary Medicines Authority,APS6,97212,108521
+ARC,Australian Research Council,APS6,86598,96712
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,APS6,89288,102130
+ASEA,Asbestos Safety & Eradication Agency,APS6,92012,101182
+ASQA,Australian Skills Quality Authority,APS6,89459,96855
+ATO,Australian Taxation Office,APS6,90611,104038
+ATSB,Australian Transport Safety Bureau,APS6,88535,101047
+AUSTRAC,Australian Transaction Reports & Analysis Centre,APS6,93840,106905
+AUSTRADE,Austrade,APS6,93859,101903
+AWM,Australian War Memorial,APS6,85034,95142
+BOM,Bureau of Meteorology,APS6,84670,96267
+Cancer,Cancer Australia,APS6,89124,100547
+CCA,Climate Change Authority,APS6,82282,97472
+CER,Clean Energy Regulator,APS6,91619,104302
+CGC,Commonwealth Grants Commission,APS6,93570,98749
+Comcare,Comcare,APS6,92620,102773
+DAFF,"Department of Agriculture, Fisheries & Forestry",APS6,88408,100378
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",APS6,88408,100378
+Defence,Department of Defence,APS6,88175,100724
+DESE,Department of Education,APS6,94332,103731
+DEWR,Department of Employment & Workplace Relations,APS6,94332,103731
+DFAT,Department of Foreign Affairs & Trade,APS6,91617,103015
+DFSVA,"Domestic, Family & Sexual Violence Commission",APS6,88490,99464
+DHA,Defence Housing Australia,APS6,93834,107874
+DPP,Office of the Director of Public Prosecutions,APS6,85203,97878
+DSS,Department of Social Services,APS6,91145,102448
+DTA,Digital Transformation Agency,APS6,88747,104229
+DVA,Department of Veterans' Affairs,APS6,93976,106713
+FED,Federal Court of Australia,APS6,82689,94985
+Finance,Department of Finance,APS6,90802,110821
+FSANZ,Food Standards Australia New Zealand,APS6,87718,99774
+FWC,Fair Work Commission,APS6,89938,103455
+GBRMPA,Great Barrier Reef Marine Park Authority,APS6,86931,98910
+Geoscience,Geoscience Australia,APS6,90555,104820
+Health,Department of Health,APS6,91092,102765
+Home Affairs,Department of Home Affairs,APS6,84335,99779
+Industry,"Department of Industry, Science & Resources",APS6,91444,99167
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",APS6,88466,99155
+IPA,IP Australia,APS6,88368,100383
+IPEA,Independent Parliamentary Expenses Authority,APS6,89022,108649
+MDBA,Murray-Darling Basin Authority,APS6,94784,104319
+NAA,National Archives of Australia,APS6,89247,99025
+NBA,National Blood Authority,APS6,89995,101526
+NCA,National Capital Authority,APS6,83007,99579
+NDIA,National Disability Insurance Agency,APS6,89612,99072
+NDISQSC,NDIS Quality & Safeguards Commission,APS6,89445,100537
+NEMA,National Recovery & Resilience Agency,APS6,87793,98660
+NFRA,National Faster Rail Agency,APS6,88466,99155
+NFSA,National Film & Sound Archive of Australia,APS6,85168,95084
+NHFB,National Health Funding Body,APS6,89385,100840
+NHMRC,National Health & Medical Research Council,APS6,88442,99774
+NIAA,National Indigenous Australians Agency,APS6,91072,102344
+NLA,National Library of Australia,APS6,88349,99425
+NMA,National Museum of Australia,APS6,84406,94604
+NMHC,National Mental Health Commission,APS6,91529,102859
+NPG,National Portrait Gallery of Australia,APS6,89147,104601
+NQWIA,North Queensland Water Infrastructure Authority,APS6,88466,99155
+OAIC,Office of the Australian Information Commissioner,APS6,89781,98866
+OFWO,Fair Work Ombudsman,APS6,93090,107015
+OIGIS,Office of the Inspector-General of Intelligence & Security,APS6,92860,104354
+OIGOT,Inspector-General of Taxation,APS6,94288,114232
+OMB,Office of the Commonwealth Ombudsman,APS6,84360,96902
+ONI,Office of National Intelligence,APS6,93967,106919
+OPC,Office of Parliamentary Counsel,APS6,89620,102949
+OPH,Old Parliament House,APS6,83382,96004
+OTA,Organ & Tissue Authority,APS6,91093,102767
+PC,Productivity Commission,APS6,84377,102944
+PMC,Department of the Prime Minister & Cabinet,APS6,91072,102344
+PSR,Professional Services Review,APS6,87431,102709
+RAM,Royal Australian Mint,APS6,91841,100348
+SA,Screen Australia,APS6,87457,99216
+Services Australia,Services Australia,APS6,87735,101451
+SIA,Sport Integrity Australia,APS6,98106,107069
+SWA,Safe Work Australia,APS6,94813,104457
+TEQSA,Tertiary Education Quality & Standards Agency,APS6,90838,99891
+Treasury,Treasury,APS6,94300,114243
+TSRA,Torres Strait Regional Authority,APS6,83311,95699
+WGEA,Workplace Gender Equality Agency,APS6,87791,100288
+AAT,Administrative Appeals Tribunal,EL1,108997,128291
+ABCC,Australian Building & Construction Commission,EL1,117915,127295
+ABS,Australian Bureau of Statistics,EL1,108931,125922
+ACCC,Australian Competition & Consumer Commission,EL1,114589,126815
+ACIAR,Australian Centre for International Agricultural Research,EL1,113600,119395
+ACIC,Australian Criminal Intelligence Commission,EL1,108995,131404
+ACLEI,Australian Commission for Law Enforcement Integrity,EL1,109816,133453
+ACMA,Australian Communications & Media Authority,EL1,106545,120152
+ACQSC,Aged Care Quality & Safety Commission,EL1,109853,125288
+ACSQHC,Australian Commission on Safety & Quality in Health Care,EL1,111929,127657
+ADHA,Australian Digital Health Agency,EL1,111611,127294
+AEC,Australian Electoral Commission,EL1,109443,123331
+AFMA,Australian Fisheries Management Authority,EL1,114739,127526
+AFSA,Australian Financial Security Authority,EL1,107643,126714
+AG,Attorney-General's Department,EL1,110365,134286
+AHL,Aboriginal Hostels Ltd,EL1,104763,108169
+AHRC,Australian Human Rights Commission,EL1,107355,120035
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,EL1,100147,109855
+AIFS,Australian Institute of Family Studies,EL1,108357,119661
+AIHW,Australian Institute of Health & Welfare,EL1,110698,123486
+ALRC,Australian Law Reform Commission,EL1,110931,128602
+ANAO,Australian National Audit Office,EL1,115286,129915
+ANMM,Australian National Maritime Museum,EL1,100005,110150
+APSC,Australian Public Service Commission,EL1,111086,127318
+APVMA,Australian Pesticides & Veterinary Medicines Authority,EL1,117630,132463
+ARC,Australian Research Council,EL1,110607,119109
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,EL1,110305,126917
+ASEA,Asbestos Safety & Eradication Agency,EL1,113144,125048
+ASQA,Australian Skills Quality Authority,EL1,109098,119701
+ATO,Australian Taxation Office,EL1,116062,126533
+ATSB,Australian Transport Safety Bureau,EL1,111303,122861
+AUSTRAC,Australian Transaction Reports & Analysis Centre,EL1,114680,130554
+AUSTRADE,Austrade,EL1,108527,122078
+AWM,Australian War Memorial,EL1,108251,116985
+BOM,Bureau of Meteorology,EL1,103085,116115
+Cancer,Cancer Australia,EL1,109521,124912
+CCA,Climate Change Authority,EL1,101270,129017
+CER,Clean Energy Regulator,EL1,112758,128263
+CGC,Commonwealth Grants Commission,EL1,118717,124807
+Comcare,Comcare,EL1,114551,136493
+DAFF,"Department of Agriculture, Fisheries & Forestry",EL1,115663,124403
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",EL1,115663,124403
+Defence,Department of Defence,EL1,111441,125705
+DESE,Department of Education,EL1,115996,128200
+DEWR,Department of Employment & Workplace Relations,EL1,115996,128200
+DFAT,Department of Foreign Affairs & Trade,EL1,114090,127619
+DFSVA,"Domestic, Family & Sexual Violence Commission",EL1,110255,125152
+DHA,Defence Housing Australia,EL1,113905,139011
+DPP,Office of the Director of Public Prosecutions,EL1,107916,117775
+DSS,Department of Social Services,EL1,113563,128907
+DTA,Digital Transformation Agency,EL1,114880,127348
+DVA,Department of Veterans' Affairs,EL1,118220,129820
+FED,Federal Court of Australia,EL1,105834,114298
+Finance,Department of Finance,EL1,117538,142337
+FSANZ,Food Standards Australia New Zealand,EL1,109721,122221
+FWC,Fair Work Commission,EL1,114492,123903
+GBRMPA,Great Barrier Reef Marine Park Authority,EL1,108681,119117
+Geoscience,Geoscience Australia,EL1,109001,123220
+Health,Department of Health,EL1,111940,127670
+Home Affairs,Department of Home Affairs,EL1,106527,124931
+Industry,"Department of Industry, Science & Resources",EL1,113231,120249
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",EL1,113631,119891
+IPA,IP Australia,EL1,110917,124837
+IPEA,Independent Parliamentary Expenses Authority,EL1,115232,139545
+MDBA,Murray-Darling Basin Authority,EL1,113509,124875
+NAA,National Archives of Australia,EL1,110409,118830
+NBA,National Blood Authority,EL1,111076,126156
+NCA,National Capital Authority,EL1,105092,115762
+NDIA,National Disability Insurance Agency,EL1,111652,122202
+NDISQSC,NDIS Quality & Safeguards Commission,EL1,111445,126503
+NEMA,National Recovery & Resilience Agency,EL1,112822,128586
+NFRA,National Faster Rail Agency,EL1,113631,119891
+NFSA,National Film & Sound Archive of Australia,EL1,107660,115154
+NHFB,National Health Funding Body,EL1,109842,125277
+NHMRC,National Health & Medical Research Council,EL1,108995,123999
+NIAA,National Indigenous Australians Agency,EL1,117036,133387
+NLA,National Library of Australia,EL1,106667,126815
+NMA,National Museum of Australia,EL1,109545,117577
+NMHC,National Mental Health Commission,EL1,117623,134058
+NPG,National Portrait Gallery of Australia,EL1,110753,130441
+NQWIA,North Queensland Water Infrastructure Authority,EL1,113631,119891
+OAIC,Office of the Australian Information Commissioner,EL1,113148,121034
+OFWO,Fair Work Ombudsman,EL1,118379,127756
+OIGIS,Office of the Inspector-General of Intelligence & Security,EL1,112169,125043
+OIGOT,Inspector-General of Taxation,EL1,122989,141081
+OMB,Office of the Commonwealth Ombudsman,EL1,108142,116777
+ONI,Office of National Intelligence,EL1,115942,131049
+OPC,Office of Parliamentary Counsel,EL1,113889,138290
+OPH,Old Parliament House,EL1,102838,116250
+OTA,Organ & Tissue Authority,EL1,111942,127672
+PC,Productivity Commission,EL1,106871,135338
+PMC,Department of the Prime Minister & Cabinet,EL1,117036,133387
+PSR,Professional Services Review,EL1,110472,123350
+RAM,Royal Australian Mint,EL1,112147,125017
+SA,Screen Australia,EL1,108995,120640
+Services Australia,Services Australia,EL1,109738,121598
+SIA,Sport Integrity Australia,EL1,112719,122849
+SWA,Safe Work Australia,EL1,116543,129594
+TEQSA,Tertiary Education Quality & Standards Agency,EL1,111699,123455
+Treasury,Treasury,EL1,123005,141099
+TSRA,Torres Strait Regional Authority,EL1,106802,129949
+WGEA,Workplace Gender Equality Agency,EL1,113545,122526
+AAT,Administrative Appeals Tribunal,EL2,130512,139933
+ABCC,Australian Building & Construction Commission,EL2,135960,159117
+ABS,Australian Bureau of Statistics,EL2,135992,163601
+ACCC,Australian Competition & Consumer Commission,EL2,132847,155684
+ACIAR,Australian Centre for International Agricultural Research,EL2,141700,153978
+ACIC,Australian Criminal Intelligence Commission,EL2,136177,153430
+ACLEI,Australian Commission for Law Enforcement Integrity,EL2,135002,152120
+ACMA,Australian Communications & Media Authority,EL2,128896,152477
+ACQSC,Aged Care Quality & Safety Commission,EL2,131064,155174
+ACSQHC,Australian Commission on Safety & Quality in Health Care,EL2,133542,158107
+ADHA,Australian Digital Health Agency,EL2,133163,157657
+AEC,Australian Electoral Commission,EL2,129391,151927
+AFMA,Australian Fisheries Management Authority,EL2,134613,156938
+AFSA,Australian Financial Security Authority,EL2,130358,154288
+AG,Attorney-General's Department,EL2,134286,152949
+AHL,Aboriginal Hostels Ltd,EL2,124498,127769
+AHRC,Australian Human Rights Commission,EL2,129072,151691
+AIATSIS,Australian Institute of Aboriginal & Torres Strait Islander Studies,EL2,119011,132988
+AIFS,Australian Institute of Family Studies,EL2,127024,148915
+AIHW,Australian Institute of Health & Welfare,EL2,135473,152248
+ALRC,Australian Law Reform Commission,EL2,149082,158160
+ANAO,Australian National Audit Office,EL2,132387,165222
+ANMM,Australian National Maritime Museum,EL2,115344,130768
+APSC,Australian Public Service Commission,EL2,139290,156591
+APVMA,Australian Pesticides & Veterinary Medicines Authority,EL2,138052,158375
+ARC,Australian Research Council,EL2,132714,149595
+ARPANSA,Australian Radiation Protection & Nuclear Safety Agency,EL2,134786,153061
+ASEA,Asbestos Safety & Eradication Agency,EL2,133143,159821
+ASQA,Australian Skills Quality Authority,EL2,132945,152988
+ATO,Australian Taxation Office,EL2,139677,158314
+ATSB,Australian Transport Safety Bureau,EL2,132267,150965
+AUSTRAC,Australian Transaction Reports & Analysis Centre,EL2,133669,157930
+AUSTRADE,Austrade,EL2,126959,171842
+AWM,Australian War Memorial,EL2,141167,157477
+BOM,Bureau of Meteorology,EL2,125428,140871
+Cancer,Cancer Australia,EL2,130671,154705
+CCA,Climate Change Authority,EL2,120890,162589
+CER,Clean Energy Regulator,EL2,134607,158565
+CGC,Commonwealth Grants Commission,EL2,146938,157834
+Comcare,Comcare,EL2,143312,162623
+DAFF,"Department of Agriculture, Fisheries & Forestry",EL2,136118,158149
+DCCEEW,"Department of Climate Change, Energy, the Environment & Water",EL2,136118,158149
+Defence,Department of Defence,EL2,129391,155309
+DESE,Department of Education,EL2,136498,163848
+DEWR,Department of Employment & Workplace Relations,EL2,136498,163848
+DFAT,Department of Foreign Affairs & Trade,EL2,137833,155667
+DFSVA,"Domestic, Family & Sexual Violence Commission",EL2,129952,153215
+DHA,Defence Housing Australia,EL2,141154,173683
+DPP,Office of the Director of Public Prosecutions,EL2,130029,147177
+DSS,Department of Social Services,EL2,133851,157811
+DTA,Digital Transformation Agency,EL2,133272,157978
+DVA,Department of Veterans' Affairs,EL2,142574,160474
+FED,Federal Court of Australia,EL2,122007,142988
+Finance,Department of Finance,EL2,143499,168942
+FSANZ,Food Standards Australia New Zealand,EL2,129527,159657
+FWC,Fair Work Commission,EL2,132011,154496
+GBRMPA,Great Barrier Reef Marine Park Authority,EL2,127284,150416
+Geoscience,Geoscience Australia,EL2,129536,161431
+Health,Department of Health,EL2,133555,158121
+Home Affairs,Department of Home Affairs,EL2,126223,164257
+Industry,"Department of Industry, Science & Resources",EL2,136550,147019
+Infrastructure,"Department of Infrastructure, Transport, Regional Development & Communications",EL2,134056,150647
+IPA,IP Australia,EL2,135875,158395
+IPEA,Independent Parliamentary Expenses Authority,EL2,140684,165628
+MDBA,Murray-Darling Basin Authority,EL2,132041,155615
+NAA,National Archives of Australia,EL2,132490,143346
+NBA,National Blood Authority,EL2,132002,148721
+NCA,National Capital Authority,EL2,124046,159328
+NDIA,National Disability Insurance Agency,EL2,131599,149410
+NDISQSC,NDIS Quality & Safeguards Commission,EL2,131355,154869
+NEMA,National Recovery & Resilience Agency,EL2,131317,156288
+NFRA,National Faster Rail Agency,EL2,134056,150647
+NFSA,National Film & Sound Archive of Australia,EL2,127794,141745
+NHFB,National Health Funding Body,EL2,131052,155160
+NHMRC,National Health & Medical Research Council,EL2,129668,153520
+NIAA,National Indigenous Australians Agency,EL2,136220,162124
+NLA,National Library of Australia,EL2,130299,154789
+NMA,National Museum of Australia,EL2,128087,142293
+NMHC,National Mental Health Commission,EL2,136905,162939
+NPG,National Portrait Gallery of Australia,EL2,134701,152977
+NQWIA,North Queensland Water Infrastructure Authority,EL2,134056,150647
+OAIC,Office of the Australian Information Commissioner,EL2,131425,149988
+OFWO,Fair Work Ombudsman,EL2,136421,159580
+OIGIS,Office of the Inspector-General of Intelligence & Security,EL2,130556,148759
+OIGOT,Inspector-General of Taxation,EL2,150228,172410
+OMB,Office of the Commonwealth Ombudsman,EL2,125917,142721
+ONI,Office of National Intelligence,EL2,133596,159229
+OPC,Office of Parliamentary Counsel,EL2,131006,157718
+OPH,Old Parliament House,EL2,130333,153125
+OTA,Organ & Tissue Authority,EL2,133559,158125
+PC,Productivity Commission,EL2,129581,162555
+PMC,Department of the Prime Minister & Cabinet,EL2,136220,162124
+PSR,Professional Services Review,EL2,123756,153043
+RAM,Royal Australian Mint,EL2,133272,149008
+SA,Screen Australia,EL2,129527,149567
+Services Australia,Services Australia,EL2,126991,151019
+SIA,Sport Integrity Australia,EL2,127429,153767
+SWA,Safe Work Australia,EL2,137335,164622
+TEQSA,Tertiary Education Quality & Standards Agency,EL2,131443,157782
+Treasury,Treasury,EL2,150245,172429
+TSRA,Torres Strait Regional Authority,EL2,129949,148009
+WGEA,Workplace Gender Equality Agency,EL2,132244,150649
