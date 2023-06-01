@@ -60,8 +60,32 @@ body {
   font-size: .9rem;
   fill: #001533;
 }
-.workplace rect {
+.bar {
   fill: #037cc2;
+}
+.bar.selected {
+  fill: #cc4e00;
+}
+.cell {
+  fill: rgba(0, 0, 0, 0);
+}
+#tip {
+  background: #001533;
+  color: white;
+  font-size: .9rem;
+  padding: 2px 4px;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  font-family: ABCSansNovaLight, "Arial Narrow", Helvetica, sans-serif;
+  max-width: 300px;
+}
+#tip span {
+  font-family: ABCSansNovaRegular, "Arial", Helvetica, sans-serif;
+}
+#tip .value {
+  color: gold;
+  font-family: ABCSansNovaBlack, "Arial Black", Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 500px) {

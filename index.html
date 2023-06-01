@@ -31,13 +31,14 @@
         <select id="selector" onchange="changeLevel()"></select>
       </div>
       <svg id="chart">
-        <g id="chartGroup"></g>
         <g id="axisGroup">
           <g id="xAxisGroup" class="axis"></g>
           <g id="yAxisGroup" class="axis"></g>
         </g>
+        <g id="chartGroup"></g>
       </svg>
-      <div id="footer">Source: Public Service Commission</div>
+      <div id="footer">Note: These ranges are based on existing enterprise agreements and represent salaries at August 31, 2023.<br>Source: Public Service Commission</div>
+      <div id="tip"></div>
     </div>
 
     <script>
@@ -51,6 +52,7 @@
       xAxisGroup = d3.select("#xAxisGroup");
       yAxisGroup = d3.select("#yAxisGroup");
       footer = d3.select("#footer");
+      tip = d3.select("#tip");
 
       // load data
       Promise.all([
@@ -61,9 +63,11 @@
           // format data
           keyData = data[0]
             .map(d => {
-              d.minimums = +d.minimums;
-              d.maximums = +d.maximums;
-              return d;
+              return {
+                level: d.level,
+                minimum: +d.minimums,
+                maximum: +d.maximums,
+              };
             });
 
           payData = data[1]
@@ -109,21 +113,26 @@
       }
       
       function changeLevel() {        
+        cellOff();
+
         level = selector
           .property("value");
 
+        minimum = keyData
+          .filter(d => d.level == level)[0].minimum;
+        maximum = keyData
+          .filter(d => d.level == level)[0].maximum;
+
         chartData = payData
-          .filter(d => d.level == level);
+          .filter(d => d.level == level)
+          .sort((a, b) => d3.ascending(a.min, b.min));
 
         x.domain([
           d3.min(chartData, d => d.min),
           d3.max(chartData, d => d.max)
         ]).nice();
 
-        y.domain(chartData
-          .sort((a, b) => d3.ascending(a.min, b.min))
-          .map(d => d.key)
-        );
+        y.domain(chartData.map(d => d.key));
 
         workplaces = chartGroup
           .selectAll(".workplace")
@@ -134,11 +143,64 @@
             .classed("workplace", true);
 
         workplacesEnter.append("rect")
+          .classed("bar", true)
           .attr("width", 0);
+
+        workplacesEnter.append("rect")
+          .classed("cell", true)
+          .on("mouseover", cellOn)
+          .on("mouseout", cellOff);
 
         workplacesExit = workplaces.exit();
         
         resize();
+      }
+
+      function cellOn() {
+        let data = this.parentNode.__data__;
+
+        d3.select(this.parentNode.querySelector(".bar"))
+          .classed("selected", true);        
+
+        tip.style("opacity", 0)
+          .style("top", 0)
+          .style("left", 0)
+          .html("<span>" + data.agency +
+            "<span><br>" +
+            data.level + " salaries: <span class='value'>" +
+            d3.format("$,.0f")(data.min) + "—" +
+            d3.format("$,.0f")(data.max) + "</span>");        
+
+        let tipDimensions = tip
+          .node()
+          .getBoundingClientRect();
+
+        let buffer = document.querySelector("#subhead")
+          .getBoundingClientRect()
+          .height +
+          document.querySelector("#selectorDiv")
+          .getBoundingClientRect()
+          .height;
+
+        let rank = chartData.map(d => d.key).indexOf(data.key) / agencies.length;
+
+        tip.style("top", () => {
+            if (rank < 0.5) {
+              return (y(data.key) + y.bandwidth() + buffer + 16) + "px";
+            } else {
+              return (y(data.key) - tipDimensions.height + buffer - 16) + "px";
+            }
+          })
+          .style("left", () => {
+            return (x(data.min) + (x(data.max) - x(data.min)) / 2 - tipDimensions.width / 2) + "px"; 
+          })
+          .style("opacity", 1);
+      }
+
+      function cellOff() {
+        d3.selectAll(".workplace .bar")
+          .classed("selected", false);
+        tip.style("opacity", 0);
       }
 
       function resize() {
@@ -191,17 +253,20 @@
           .remove();
 
         workplacesEnter.attr("transform", d => "translate(0, " + y(d.key) + ")");
-        workplacesEnter.select("rect")
+        workplacesEnter.select(".bar")
           .attr("height", y.bandwidth())
           .attr("x", d => x(d.min))
           .transition()
             .duration(loop)
             .attr("width", d => Math.max(x(d.max) - x(d.min), 2));
+        workplacesEnter.select(".cell")
+          .attr("height", y.bandwidth())
+          .attr("width", width);
         
         workplaces.transition()
           .duration(loop)
           .attr("transform", d => "translate(0, " + y(d.key) + ")");
-        workplaces.select("rect")
+        workplaces.select(".bar")
           .transition()
             .duration(loop)
             .attr("height", y.bandwidth())
