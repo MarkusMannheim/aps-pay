@@ -119,6 +119,12 @@ body {
     font-size: 15px;
   }
   .axis .tick text {
+    font-size: .8rem;
+  }
+  #minima text {
     font-size: .85rem;
+  }
+  #tip {
+    font-size: .8rem;
   }
 }
