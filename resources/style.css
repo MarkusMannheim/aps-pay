@@ -125,3 +125,41 @@ body {
     font-size: .8rem;
   }
 }
+
+@media (prefers-color-scheme: dark) and (max-width: 600px){
+  :root {
+    color: white;
+  }
+  body {
+    background: black;
+  }
+  #selector {
+    background: white;
+    color: #001533;
+  }
+  #footer {
+    color: #ccc;
+  }
+  .axis .tick line {
+    stroke: #ccc;
+  }
+  .axis .tick text {
+    fill: white;
+  }
+  .bar {
+    fill: #009de5;
+  }
+  #tip {
+    background: white;
+    color: #001533;
+  }
+  #tip .value {
+    color: #cc4e00;
+  }
+  #minima line {
+    stroke: 2;
+  }
+  #shade {
+    opacity: .25;
+  }
+}
