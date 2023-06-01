@@ -202,9 +202,9 @@
 
         tip.style("top", () => {
             if (rank < 0.5) {
-              return (y(data.key) + y.bandwidth() + buffer + 16) + "px";
+              return (y(data.key) + y.bandwidth() + buffer + 10) + "px";
             } else {
-              return (y(data.key) - tipDimensions.height + buffer - 16) + "px";
+              return (y(data.key) - tipDimensions.height + buffer - 10) + "px";
             }
           })
           .style("left", () => {

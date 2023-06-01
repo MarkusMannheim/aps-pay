@@ -62,9 +62,11 @@ body {
 }
 .bar {
   fill: #037cc2;
+  opacity: .8;
 }
 .bar.selected {
   fill: #cc4e00;
+  opacity: 1;
 }
 .cell {
   fill: rgba(0, 0, 0, 0);
