@@ -19,20 +19,51 @@
 
     <!-- scripts -->
     <script src="./resources/d3.v7.min.js"></script>
+    <link href="./resources/test.css" rel="stylesheet">
   </head>
 
   <body>
     <div id="container"></div>
 
     <script>
-      // elements
-      container = d3.select("#container");
 
-      background = window.parent.document.body.style.background;
-      backgroundColor = window.parent.document.body.style.backgroundColor;
+        function detectParentPageBackgroundColor() {
+        var targetElement = document.getElementById('container'); // Replace with the ID of the representative <div> element
 
-      container.append("div").text("background:", background);
-      container.append("div").text("backgroundColor:", backgroundColor);
+        targetElement.addEventListener('click', function(event) {
+            var pixelColor = getPixelColor(event.clientX, event.clientY);
+            console.log('Parent page background color:', pixelColor);
+        });
+
+        function getPixelColor(x, y) {
+            var parentWindow = window.parent;
+            var pixelData;
+            var canvas = document.createElement('canvas');
+            var context = canvas.getContext('2d');
+
+            canvas.width = 1;
+            canvas.height = 1;
+
+            // Simulate a click event at the specified coordinates
+            var clickEvent = new MouseEvent('click', {
+            clientX: x,
+            clientY: y,
+            });
+            parentWindow.document.dispatchEvent(clickEvent);
+
+            // Draw the clicked pixel onto the canvas
+            context.drawImage(parentWindow.document.documentElement, x, y, 1, 1, 0, 0, 1, 1);
+
+            // Get the pixel data
+            pixelData = context.getImageData(0, 0, 1, 1).data;
+
+            return 'rgb(' + pixelData[0] + ', ' + pixelData[1] + ', ' + pixelData[2] + ')';
+        }
+        }
+
+        // Call the function when the iframe has finished loading
+        window.addEventListener('load', detectParentPageBackgroundColor);
+
 
     </script>
   </body>
