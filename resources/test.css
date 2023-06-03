@@ -11,14 +11,15 @@
  src: url(../fonts/ABCSansNova-Light.otf);
 }
 :root {
-  font-size: 1em;
-  font-family: ABCSansNovaRegular, Helvetica, sans-serif;
-  color: white;
+  font-size: .9em;
+  font-family: ABCSansNovaRegular, Helvetica, sans-serif;  
   box-sizing: border-box;
 }
 body {
   margin: 0;
   overflow: hidden;
+  background-color: #001533;
+  color: white;
 }
 #container {  
   position: fixed;
@@ -29,4 +30,17 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+}
+#results {
+  padding: 1rem;  
+}
+#results div {
+  margin-bottom: 1rem;
+}
+#results span {
+  font-family: ABCSansNovaBlack, "Arial Black", Helvetica, sans-serif;
+  color: gold;
+}
+#results div:last-child {
+  margin-bottom: .0;
 }

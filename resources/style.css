@@ -126,7 +126,7 @@ body {
   }
 }
 
-@media (prefers-color-scheme: dark) and (max-width: 600px){
+@media (prefers-color-scheme: dark) and (max-width: 600px) {
   :root {
     color: white;
   }
