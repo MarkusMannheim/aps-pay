@@ -147,6 +147,9 @@ body {
   .darkMode .bar {
     fill: #009de5;
   }
+  .darkMode .bar.selected {
+    fill: #cc4e00;
+  }
   .darkMode #tip {
     background: white;
     color: #001533;
