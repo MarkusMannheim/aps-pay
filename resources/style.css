@@ -13,10 +13,10 @@
 :root {
   font-size: 1em;
   font-family: ABCSansNovaRegular, Helvetica, sans-serif;
-  color: #001533;
   box-sizing: border-box;
 }
 body {
+  color: #001533;
   margin: 0;
 }
 #container {  
@@ -126,40 +126,38 @@ body {
   }
 }
 
-@media (prefers-color-scheme: dark) and (max-width: 600px) {
-  :root {
+@media (prefers-color-scheme: dark) {
+  body.darkMode {
     color: white;
-  }
-  body {
     background: black;
   }
-  #selector {
+  .darkMode #selector {
     background: white;
     color: #001533;
   }
-  #footer {
+  .darkMode #footer {
     color: #ccc;
   }
-  .axis .tick line {
+  .darkMode .axis .tick line {
     stroke: #ccc;
   }
-  .axis .tick text {
+  .darkMode .axis .tick text {
     fill: white;
   }
-  .bar {
+  .darkMode .bar {
     fill: #009de5;
   }
-  #tip {
+  .darkMode #tip {
     background: white;
     color: #001533;
   }
-  #tip .value {
+  .darkMode #tip .value {
     color: #cc4e00;
   }
-  #minima line {
+  .darkMode #minima line {
     stroke: 2;
   }
-  #shade {
+  .darkMode #shade {
     opacity: .25;
   }
 }

@@ -69,6 +69,9 @@
       footer = d3.select("#footer");
       tip = d3.select("#tip");
 
+      // dark mode
+      darkModeCheck();            
+
       // load data
       Promise.all([
         d3.csv("./data/apsMinima.csv"),
@@ -346,6 +349,18 @@
           .transition()
             .duration(loop)
             .attr("width", x(maximum) - x(minimum));
+      }
+
+      function darkModeCheck() {
+        let testString = window && window.location !== window.parent.location ?
+          document.referrer :
+          document.location.href;
+        
+        let darkMode = testString
+          .includes("newsapp");
+
+        d3.select("body")
+          .classed("darkMode", darkMode);
       }
     </script>
   </body>
