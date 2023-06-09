@@ -4,13 +4,13 @@
 
 I've examined this question several times but it keeps popping up. So I'm publishing this analysis — and the relevant data — again for when it's next asked.
 
-The Australian Public Service (APS) decentralised pay bargaining in the 1990s. In the years since, unions and some politicians said agencies with a higher proportion of female staff paid less than others. The Community and Public Sector Union repeated this argument in the lead-up to this year's APS enterprise agreement (EA) negotiations.
+The Australian Public Service (APS) decentralised pay bargaining in the 1990s. In the years since, unions and some politicians said that agencies with a higher proportion of female staff paid less than other agencies. The Community and Public Sector Union repeated this argument in the lead-up to this year's APS enterprise agreement (EA) negotiations.
 
-The Albanese government [says it is trying to reduce pay gaps between APS agencies](https://www.abc.net.au/news/2023-06-02/which-public-servants-will-receive-a-pay-boost/102420798). To aid this, the Australian Public Service Commission (APSC) collated and shared the salary ranges of 103 APS agencies. I've combined these data [with other APSC employment data](https://www.apsc.gov.au/employment-data/aps-employment-data-31-december-2022) to understand the associations between workforce gender splits and salaries. The two datasets I used — APS salaries and staff headcounts — were correct as of December 31, 2022.
+The Albanese government is now [trying to reduce pay gaps between APS agencies](https://www.abc.net.au/news/2023-06-02/which-public-servants-will-receive-a-pay-boost/102420798). To aid this, the Australian Public Service Commission (APSC) recently collated and shared the salary ranges of 103 APS agencies. I've combined these data [with other APSC employment data](https://www.apsc.gov.au/employment-data/aps-employment-data-31-december-2022) to understand the associations between workforce gender splits and salaries. The two datasets I used — APS salaries and staff headcounts — were correct as of December 31, 2022.
 
 ## Examining the data
 
-This analysis omits six agencies, because the APSC excludes these agencies from its staff headcounts (and I was too lazy to fetch their data myself). That leaves 97 agencies — close to a census of APS staff. The excluded agencies are:
+This analysis omits six agencies, because the APSC excludes these agencies from its staff headcounts (and I was too lazy to fetch the data myself). That leaves 97 agencies — close to a census of APS staff. The excluded agencies are:
 
 * Australian Office of Financial Management
 * Commonwealth Grants Commission
@@ -18,11 +18,9 @@ This analysis omits six agencies, because the APSC excludes these agencies from 
 * IP Australia
 * Royal Australian Mint
 
-I also exclude senior executive service (SES) officers, as most are employed on individual contracts. Also, graduate staff are categorised as APS3 officers — the level at which almost all of them are employed.
+I have also excluded senior executive service (SES) officers, because most are employed on individual contracts. Also, graduate staff are categorised as APS3 officers, as almost all of them are employed at that level.
 
-Let's look at the data we're working with.
-
-The plot below shows almost half (44.6%) of all non-SES staff are employed as APS6s or EL1s:
+So let's look at the data we're working with. The plot below shows almost half (44.6%) of all non-SES staff are employed as APS6s or EL1s:
 
 ![A bar chart showing APS staff numbers by job level.](./data/staff_levels.png)
 
@@ -30,9 +28,9 @@ It's also clear that the APS is a largely feminised workforce, both overall and 
 
 ![A strip plot showing, for each job level, the proportion of agencies' staff who are women.](./data/female_staff.png)
 
-Combining the salary and staffing data allows us to examine any correlations — and to understand whether feminised workplaces do, in fact, pay less.
+Combining the salary and staffing data allows us to examine correlations — such as whether feminine workplaces do, in fact, pay less.
 
-I use minimum salaries in this analysis, as I believe they more closely reflect the salaries of most staff. Minimum salaries are also more likely to represent the alternatives for staff who want to leave a low-paying workplace.
+I used minimum salaries in this analysis, as I believe they more closely reflect the salaries of most staff. Minimum salaries are also more likely to represent the alternatives for staff who want to leave low-paying workplaces.
 
 The plots below show no obvious association between agencies with many women (X-axis) and salaries (Y-axis). (The circle sizes reflect the number of staff in that agency at that level.)
 
@@ -44,9 +42,9 @@ The plots below show no obvious association between agencies with many women (X-
 
 A visual inspection of the plots above is enough to answer the original question: no, feminised workplaces are not paid less.
 
-However, we'll measure the correlation (the **R squared** value) more precisely for the hell of it.
+However, we'll measure the correlation precisely (the **R squared** value) for the hell of it.
 
-These are the results of linear regressions at each job level, using the percentage of staff who are women to predict an agency's salary. I tested both minimum and maximum salaries:
+Below are the results of linear regressions at each job level, using the percentage of staff who are women to predict an agency's salary. I tested both minimum and maximum salaries:
 
 ### **Regression results**
 
@@ -61,11 +59,11 @@ These are the results of linear regressions at each job level, using the percent
 | EL1 | 0.1% | 0.0% |
 | EL2 | 1.2% | 0.4% |
 
-In short, these are junk results. There's no correlation between how feminine APS agencies are and the salaries they pay.
+In short, these results are junk. There's no correlation between how feminine APS agencies are and the salaries they pay.
 
-However, this approach has a flaw: it treats all agencies equally. So massive agencies, like Services Australia, carry the same weight as tiny ones, like Screen Australia.
+However, this approach has one obvious flaw: it treats all agencies equally. So massive agencies, like Services Australia, carry the same weight as tiny ones, like Screen Australia.
 
-We can get around this by applying weights to our regression, reflecting agency sizes. And when we do this, we get a couple of results that look at least a little like correlation:
+We can get around this by applying weights to our regression, to reflect varying agency sizes. And when we do this, a couple of results look at least a little bit like correlation:
 
 ### **Weighted regression results**
 
@@ -82,8 +80,8 @@ We can get around this by applying weights to our regression, reflecting agency 
 
 Feminine agencies pay lower maximum salaries to APS1 officers, and lower minimum salaries to APS3 officers.
 
-Nonetheless, the correlations are generally weak — especially for the levels at which most staff are employed.
+Nonetheless, the correlations remain generally weak, especially for the levels at which most staff are employed. It's fair to say that, no, feminised government workplaces don't pay less.
 
-So no, feminised government workplaces don't pay less. In any event, this question may eventually become redundant, with the government [chipping away at the "pay fragmentation"](https://www.abc.net.au/news/2023-05-30/public-service-pay-gaps-to-be-fixed-federal-government/102410008) caused by agency-based bargaining.
+In any event, this question may eventually become redundant, with the government [chipping away at the "pay fragmentation"](https://www.abc.net.au/news/2023-05-30/public-service-pay-gaps-to-be-fixed-federal-government/102410008) caused by agency-based bargaining. Let's hope so!
 
 (You can access the [Python script I used for this analysis here](./data/analyse_data.ipynb).)
